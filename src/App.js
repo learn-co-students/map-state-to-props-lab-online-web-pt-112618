@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'; //note lowercase 'c' for connect... not uppercase
 import UserInput from './components/UserInput'
 import ConnectedUsers from './components/Users'
 
@@ -13,4 +14,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
